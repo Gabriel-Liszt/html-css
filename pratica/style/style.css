@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+body {
+    background-image: url(../imagens/café-torrado.jpg);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #FF6B1A, #B33F00, #662400);
+    color: brown;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    margin: auto;
+}
+
+aside {
+    background-color: white;
+    width: 900px;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
