@@ -6,23 +6,70 @@
 
 body {
     background-image: url(../imagens/café-torrado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
     background-image: linear-gradient(to bottom, #FF6B1A, #B33F00, #662400);
-    color: brown;
+    color: white;
+    margin: -8px;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.547);
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 3em;
+}
+
+header > p {
+    text-align: center;
+    font-family: 'Tilt Prism', sans-serif;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+nav > a:hover {
+    color: #FF6B1A;
 }
 
 main {
     background-color: white;
-    width: 900px;
+    width: 600px;
     margin: auto;
+    margin-top: 8px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: justify;
+}
+
+main > h1 {
+    font-family: 'Tilt Prism', sans-serif; 
+}
+
+main > h2 {
+    font-family: 'Tilt Prism', sans-serif;
 }
 
 aside {
     background-color: white;
-    width: 900px;
+    width: 600px;
     margin: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: justify;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 footer {
@@ -30,4 +77,6 @@ footer {
     color: white;
     width: 100%;
     text-align: center;
+    padding-left: 24px;
+    margin: -16px;
 }
