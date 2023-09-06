@@ -12,6 +12,14 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         td, th {
@@ -19,8 +27,18 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(42, 42, 42);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(42, 42, 42);
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         td.num {
@@ -34,8 +52,8 @@
         <caption>População das Unidades Federeativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -146,7 +164,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td><strong>195.452.911</strong></td>
             </tr>
         </tfoot>
